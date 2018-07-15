@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Weather</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <style>
+        main {
+            margin-top: 64px;
+
+        }
+
+        /* Sticky footer styles
+-------------------------------------------------- */
+
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            /* Margin bottom by footer height */
+            margin-bottom: 60px;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            /* Set the fixed height of the footer here */
+            height: 60px;
+            line-height: 60px;
+            /* Vertically center the text there */
+            background-color: #f5f5f5;
+        }
+
+
+        /* Custom page CSS
+-------------------------------------------------- */
+
+        /* Not required for template or sticky footer method. */
+
+        body>.container {
+            padding: 60px 15px 0;
+        }
+
+        .footer>.container {
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
+        code {
+            font-size: 80%;
+        }
+
+        h5 {
+            color:navy;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <header>
+        <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+            <a href="index.html" class="navbar-brand">Latitude</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+
+
+                    <li class="navbar-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Plots
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="analysis-1.html">Max Temp</a>
+                            <a class="dropdown-item" href="analysis-2.html">Humidity</a>
+                            <a class="dropdown-item" href="analysis-3.html">Cloudiness</a>
+                            <a class="dropdown-item" href="analysis-4.html">Wind Speed</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="index.html">Homepage</a>
+                        </div>
+                    </li>
+
+
+
+                    <li class="navbar-item">
+                        <a href="table.html" class="nav-link">Data</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="analysis-5.html" class="nav-link">Comparisons</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+    <main class="container">
+        <!-- main section -->
+        <div class="row main">
+            <div class="col-md-12">
+                <div class="row">
+
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="text-left">Summary: Latitude</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="media">
+                                    <img class="mr-3" width="70%" alt="Weather Graph 1" src="assets/images/Fig1.png" />
+                                    <div class="media-body">
+                                        <p class="mt-0">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui doloribus nobis quibusdam obcaecati commodi quo neque sapiente dicta ducimus fuga amet officia blanditiis, illum illo architecto unde voluptatum ad cumque?
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5>Visualizations</h5>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img alt="Weather image 1" src="assets/images/Fig1.png" class="img-thumbnail" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img alt="Weather image 2" src="assets/images/Fig2.png" class="img-thumbnail" />
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img alt="Weather image 3" src="assets/images/Fig3.png" class="img-thumbnail" />
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img alt="Weather image 4" src="assets/images/Fig4.png" class="img-thumbnail" />
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+    <!-- footer section -->
+    <footer class="footer text-center">
+        <div class="container">
+            <span class="text-muted">Kalisha 2018</span>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
